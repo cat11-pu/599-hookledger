@@ -1,0 +1,11 @@
+{
+  "snapshot": "t0",
+  "taken_at": 1700000000,
+  "records": [
+    {"project": "OPS", "repo": "alpha", "hook": "audit", "enabled": true, "configured": true, "exe": "/opt/hooks/audit.sh", "params": ["--level", "info"]},
+    {"project": "OPS", "repo": "alpha", "hook": "build", "enabled": false, "configured": false, "exe": "/opt/hooks/build.sh"},
+    {"project": "OPS", "repo": "beta", "hook": "build", "enabled": false, "configured": false, "exe": "/opt/hooks/build.sh", "params": null},
+    {"project": "OPS", "repo": "beta", "hook": "notify", "enabled": true, "configured": true, "exe": "/opt/hooks/notify.sh", "params": ["--channel", "ops"]},
+    {"project": "OPS", "repo": "gamma", "hook": "guard", "enabled": false, "configured": true, "exe": "/opt/hooks/guard.sh", "params": []}
+  ]
+}
